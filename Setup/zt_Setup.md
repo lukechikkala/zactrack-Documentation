@@ -3,7 +3,7 @@
 Here goes the setup for setting up zactrack server, anchors, remote, etc.
 
 # Index
-* Requirements
+* [Requirements](#requirements)
 * Network Setup
 * Mounting
 * Calibrating
