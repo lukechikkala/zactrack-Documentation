@@ -4,9 +4,9 @@ Here goes the setup for setting up zactrack server, anchors, remote, etc.
 
 # Index
 * [Requirements](#requirements)
-* Network Setup
-* Mounting
-* Calibrating
+* [Network Setup](#network-setup)
+* [Mounting](#mounting)
+* [Calibration](#calibration)
 
 # Requirements
 ```
@@ -24,3 +24,9 @@ Here goes the setup for setting up zactrack server, anchors, remote, etc.
 1 x Andoid Tablet or PC with 'BlueStacks 5' installed; link to 'BlueStacks 5' below
 ```
 [Download Bluestacks](https://www.bluestacks.com/)
+
+# Network Setup
+
+# Mounting
+
+# Calibration

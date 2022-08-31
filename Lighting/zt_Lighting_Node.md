@@ -3,7 +3,7 @@
 
 In this setup, we will be using the node in sACN mode.<br>
 This documentation assumes the system is already calibrated.<br>
-To know more about System Calibration, visit [here](https://www.notion.so/ZacTrack-System-Setup-c47b222265f24c6eb2d33da085d5d04c).
+To know more about System Calibration, visit [here](../Setup/zt_Setup.md/#calibration).
 
 # Index
 * [Setup](#setup)
@@ -19,10 +19,10 @@ To know more about System Calibration, visit [here](https://www.notion.so/ZacTra
 # Add Fixtures to ZacTrack
 
 1. Click on the `⋮` on the top-right corner, followed by `New Show` and chose Empty Show.
-2. Follow the [zacTrack System Setup](https://www.notion.so/ZacTrack-System-Setup-c47b222265f24c6eb2d33da085d5d04c) notes to setup the system.
+2. Follow the [zacTrack System Setup](../Setup/zt_Setup.md) notes to setup the system.
 3. Go to `Show Editor` → `Fixture Types` and click on the green **➕ icon.**
 4. Here, zacTrack shows a list of built-in Fixtures.<br>
-Choose one from here or create a new custom fixture type by following the [Fixture Builder guide](https://www.notion.so/ZacTrack-Fixture-Builder-Guide-9203e4c93e4d49e792c04c0b32fa4d12).
+Choose one from here or create a new custom fixture type by following the [Fixture Builder guide](../Setup/zt_Fixture_Builder_Guide.md).
 5. Perform a `Show Upload` by clicking on the alert icon on the top-right corner of the screen and choosing `Upload to Server`.
 6. Then, head over to `Show Editor` → `Fixtures` and add the fixture you added into the show by clicking on the green plus icon [**➕**].<br>
 <p align="center">
