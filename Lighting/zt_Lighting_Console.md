@@ -47,7 +47,7 @@ To check the fixture, ensure `Highlight Base Channels` is enabled.
     
 3. Ensure Use `Console for Centering` and `Advanced Mode` are both set to `no` and click `Next`.<br>
 <p align="center">
-    <img src="Untitled%201.png" width="50%">
+    <img src="Console_resources/Untitled%201.png" width="50%">
 </p>
     
 4. Ensure `Highlight` is toggled on.<br>
