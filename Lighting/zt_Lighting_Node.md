@@ -26,14 +26,14 @@ Choose one from here or create a new custom fixture type by following the [Fixtu
 5. Perform a `Show Upload` by clicking on the alert icon on the top-right corner of the screen and choosing `Upload to Server`.
 6. Then, head over to `Show Editor` → `Fixtures` and add the fixture you added into the show by clicking on the green plus icon [**➕**].<br>
 <p align="center">
-    <img style="align:center" src="Node_resources/Fixtures.png" width=50% height=50%>
+    <img src="Node_resources/Fixtures.png" width=50% height=50%>
 </p>
 
 7. Click on `Fixture Type` and choose the fixture you added.
 8. Set `Out Universe` to `OUT 1` and click on `OK`.
 9. Perform `Show Upload`.
 10. In `Show Editor` → `Fixtures`, select the target icon (under `CP/AF` column) next to fixture to check whether the fixture itself is controllable from ZacTrack.
-11. This will popup a window showing the basic fixture controls like `Dimmer`, `Iris`, `Focus`, `Zoom`, `Pan` & `Tilt`. where it allows you to manually control the fixture for testing purposes.
+11. This will popup a window showing the basic fixture controls like `Dimmer`, `Iris`, `Focus`, `Zoom`, `Pan` & `Tilt`, where it allows you to manually control the fixture for testing purposes.<br>
 To check the fixture, ensure `Highlight Base Channels` is enabled.
 
 # Teach zactrack placement of fixtures in real world
@@ -80,7 +80,7 @@ See below pictures for reference.<br>
 # Add Actors
 
 1. We now need to add the Trackers by going to `Show Editor` → `Actor`.
-2. Dismount one of the Trackers from the Charging Station and it will show up in the `Actor` window.
+2. Dismount one of the Trackers from the Charging Station and it will show up in the `Actor` window.<br>
 This might take a second or two.
 3. Once the Tracker shows up, press and hold on the shown Tracker and select `Auto Add`.<br>
 <p align="center">
