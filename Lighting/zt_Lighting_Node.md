@@ -1,5 +1,5 @@
 # Control using Network Node
-**[zacTrack Documentation](../README.md) `>` [zacTrack with Lighting](zacTrack_with_Lighting.md) `>` [Control Using Node](zt_Lighting_Node.md)**
+**[zacTrack Documentation](../README.md) `>` [zacTrack with Lighting](zt_Lighting.md) `>` [Control Using Node](Node_resources.md)**
 
 In this setup, we will be using the node in sACN mode.
 This documentation assumes the system is already calibrated.
@@ -7,7 +7,7 @@ To know more about System Calibration, visit [here](https://www.notion.so/ZacTra
 
 # ZacTrack Fixture Setup
 
-![ZacTrack and Node.png](zt_Lighting_Node/ZacTrack_and_Node.png)
+![ZacTrack and Node.png](Node_resources/ZacTrack_and_Node.png)
 
 ### Add Fixtures to ZacTrack
 
@@ -19,7 +19,7 @@ Choose one from here or create a new custom fixture type by following the [Fixtu
 5. Perform a `Show Upload` by clicking on the alert icon on the top-right corner of the screen and choosing `Upload to Server`.
 6. Then, head over to `Show Editor` → `Fixtures` and add the fixture you added into the show by clicking on the green plus icon [**➕**] .
     
-    ![Fixtures.png](zt_Lighting_Node/Fixtures.png)
+    ![Fixtures.png](Node_resources/Fixtures.png)
     
 7. Click on `Fixture Type` and choose the fixture you added.
 8. Set `Out Universe` to `OUT 1` and click on `OK`.
@@ -34,34 +34,34 @@ To check the fixture, ensure `Highlight Base Channels` is enabled.
 2. Select fixtures that we are you want to align and press `Next`.
 
     
-    ![Untitled](zt_Lighting_Node/Untitled.png)
+    ![Untitled](Node_resources/Untitled.png)
     
 3. Ensure Use `Console for Centering` and `Advanced Mode` are both set to `no` and click `Next`.
     
-    ![Untitled](zt_Lighting_Node/Untitled%201.png)
+    ![Untitled](Node_resources/Untitled%201.png)
     
 4. Ensure `Highlight` is toggled on.
     
-    ![Fixture Alignment.png](zt_Lighting_Node/Fixture_Alignment.png)
+    ![Fixture Alignment.png](Node_resources/Fixture_Alignment.png)
     
 5. Set `Dimmer` to `255` and use the Track Pad to point the fixture at Black Puck.
 It doesn’t have to be in the center but as long as the beam is fairly falling on the black puck, it will be fine. See below pictures for reference.
     
-    ![Fixture Alignment Puck & Fixture.jpeg](zt_Lighting_Node/Fixture_Alignment_Puck__Fixture.jpeg)
+    ![Fixture Alignment Puck & Fixture.jpeg](Node_resources/Fixture_Alignment_Puck__Fixture.jpeg)
     
 
-![Fixture Alignment Puck & Fixture 2.jpeg](zt_Lighting_Node/Fixture_Alignment_Puck__Fixture_2.jpeg)
+![Fixture Alignment Puck & Fixture 2.jpeg](Node_resources/Fixture_Alignment_Puck__Fixture_2.jpeg)
 
 1. We then click on `Next` to continue to do the same for Red, Green & Blue pucks.
 2. At the end, ZacTrack will now start the refinement process trying to find the center of the beam.
 This will help ZacTrack to figure out where the fixture is in the 3D space. During the Refinement Process, it is also possible to adjust the `Resolution`, the default for which is `8 Ticks`.
 The lower the ticks, the more time it takes to Refine but gives a much more precise location of the fixture in the 3D space.
 
-![Untitled](zt_Lighting_Node/Untitled%202.png)
+![Untitled](Node_resources/Untitled%202.png)
 
 1. Once the Refinement Process is finished, you would see a screen like this:
 
-![Untitled](zt_Lighting_Node/Untitled%203.png)
+![Untitled](Node_resources/Untitled%203.png)
 
 1. Perform `Show Upload`.
 
@@ -72,7 +72,7 @@ The lower the ticks, the more time it takes to Refine but gives a much more prec
 This might take a second or two.
 3. Once the Tracker shows up, press and hold on the shown Tracker and select `Auto Add`.
     
-    ![Adding Trackers to Actors](zt_Lighting_Node/Adding_Actor.png)
+    ![Adding Trackers to Actors](Node_resources/Adding_Actor.png)
     
     Adding Trackers to Actors
     
