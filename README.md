@@ -4,5 +4,5 @@ This repository is a basic documentation on how to use zacTrack with external ap
 # Index
 * [Audio]
 * [Camera]
-* [Lighting](Lighting\zacTrack_with_Lighting.md)
+* [Lighting](\Lighting\zacTrack_with_Lighting.md)
 * [Video]
