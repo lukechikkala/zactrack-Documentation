@@ -57,8 +57,10 @@ To check the fixture, ensure `Highlight Base Channels` is enabled.
 5. Set `Dimmer` to `255` and use the Track Pad to point the fixture at Black Puck.<br>
 It doesn’t have to be in the center but as long as the beam is fairly falling on the black puck, it will be fine.<br>
 See below pictures for reference.<br>
-<img src="Node_resources/Fixture_Alignment_Puck__Fixture.jpeg" width=42% height=42%>
-<img src="Node_resources/Fixture_Alignment_Puck__Fixture_2.jpeg" width=35% height=35%>
+<p align="center">
+    <img src="Node_resources/Fixture_Alignment_Puck__Fixture.jpeg" width=42% height=42%>
+    <img src="Node_resources/Fixture_Alignment_Puck__Fixture_2.jpeg" width=35% height=35%>
+</p>
 
 6. We then click on `Next` to continue to do the same for Red, Green & Blue pucks.
 7. At the end, ZacTrack will now start the refinement process trying to find the center of the beam.<br>
