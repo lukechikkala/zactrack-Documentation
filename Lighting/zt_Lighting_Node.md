@@ -67,9 +67,13 @@ See below pictures for reference.<br>
    This will help ZacTrack to figure out where the fixture is in the 3D space.<br>
    During the Refinement Process, it is also possible to adjust the `Resolution`, the default for which is `8 Ticks`.<br>
    The lower the ticks, the more time it takes to Refine but gives a much more precise location of the fixture in the 3D space.<br>
-   <img src="Node_resources/Untitled%202.png" width=35% height=35%>
+   <p align="center">
+       <img src="Node_resources/Untitled%202.png" width=50% height=50%>
+    </p>
 8. Once the Refinement Process is finished, you would see a screen like this:<br>
-<img src="Node_resources/Untitled%203.png" width=35% height=35%>
+<p align="center">
+    <img src="Node_resources/Untitled%203.png" width=50% height=50%>
+</p>
 
 9. Perform `Show Upload`.
 
@@ -79,7 +83,9 @@ See below pictures for reference.<br>
 2. Dismount one of the Trackers from the Charging Station and it will show up in the `Actor` window.
 This might take a second or two.
 3. Once the Tracker shows up, press and hold on the shown Tracker and select `Auto Add`.<br>
-<img src="Node_resources/Adding_Actor.png" width=75% height=35%>
+<p align="center">
+    <img src="Node_resources/Adding_Actor.png" width=75% height=50%>
+</p>
 
 4. The name of the `Tracker xxxxxx` now changes to `Actor 01`.
 5. Perform `Show Upload`.
