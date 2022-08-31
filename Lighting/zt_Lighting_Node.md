@@ -1,26 +1,31 @@
 # Control using Network Node
 **[zacTrack Documentation](../README.md) `>` [zacTrack with Lighting](zt_Lighting.md) `>` [Control Using Node](Node_resources.md)**
 
-In this setup, we will be using the node in sACN mode.
-This documentation assumes the system is already calibrated.
+In this setup, we will be using the node in sACN mode.<br>
+This documentation assumes the system is already calibrated.<br>
 To know more about System Calibration, visit [here](https://www.notion.so/ZacTrack-System-Setup-c47b222265f24c6eb2d33da085d5d04c).
 
-# ZacTrack Fixture Setup
+# Index
+* [Setup](#setup)
+* [Add Fixtures to ZacTrack](#add-fixtures-to-zactrack)
+* [Teach zactrack placement of fixtures in real world](#teach-zactrack-placement-of-fixtures-in-real-world)
+* [Add Actors](#add-actors)
+* [Start Tracking](#start-tracking)
+
+# Setup
 
 ![ZacTrack and Node.png](Node_resources/ZacTrack_and_Node.png)
 
-### Add Fixtures to ZacTrack
+# Add Fixtures to ZacTrack
 
 1. Click on the `⋮` on the top-right corner, followed by `New Show` and chose Empty Show.
 2. Follow the [zacTrack System Setup](https://www.notion.so/ZacTrack-System-Setup-c47b222265f24c6eb2d33da085d5d04c) notes to setup the system.
 3. Go to `Show Editor` → `Fixture Types` and click on the green **➕ icon.**
-4. Here, zacTrack shows a list of built-in Fixtures.
+4. Here, zacTrack shows a list of built-in Fixtures.<br>
 Choose one from here or create a new custom fixture type by following the [Fixture Builder guide](https://www.notion.so/ZacTrack-Fixture-Builder-Guide-9203e4c93e4d49e792c04c0b32fa4d12).
 5. Perform a `Show Upload` by clicking on the alert icon on the top-right corner of the screen and choosing `Upload to Server`.
-6. Then, head over to `Show Editor` → `Fixtures` and add the fixture you added into the show by clicking on the green plus icon [**➕**] .
-    
-    ![Fixtures.png](Node_resources/Fixtures.png)
-    
+6. Then, head over to `Show Editor` → `Fixtures` and add the fixture you added into the show by clicking on the green plus icon [**➕**].<br>
+<img src="Node_resources/Fixtures.png" width=35% height=35%>
 7. Click on `Fixture Type` and choose the fixture you added.
 8. Set `Out Universe` to `OUT 1` and click on `OK`.
 9. Perform `Show Upload`.
@@ -28,55 +33,40 @@ Choose one from here or create a new custom fixture type by following the [Fixtu
 11. This will popup a window showing the basic fixture controls like `Dimmer`, `Iris`, `Focus`, `Zoom`, `Pan` & `Tilt`. where it allows you to manually control the fixture for testing purposes.
 To check the fixture, ensure `Highlight Base Channels` is enabled.
 
-## Teaching ZacTrack placement of Fixtures in the Real World
+# Teach zactrack placement of fixtures in real world
 
 1. Once the fixture control is working manually, close the popup and head over to `Show Editor` → `Fixtures` and click on `Alignment Wizard`.
-2. Select fixtures that we are you want to align and press `Next`.
+2. Select fixtures that we are you want to align and press `Next`.<br>
+<img src="Node_resources/Untitled.png" width=35% height=35%>
+3. Ensure Use `Console for Centering` and `Advanced Mode` are both set to `no` and click `Next`.<br>
+<img src="Node_resources/Untitled%201.png" width=35% height=35%>
+4. Ensure `Highlight` is toggled on.<br>
+<img src="Node_resources/Fixture_Alignment.png" width=35% height=35%>
+5. Set `Dimmer` to `255` and use the Track Pad to point the fixture at Black Puck.<br>
+It doesn’t have to be in the center but as long as the beam is fairly falling on the black puck, it will be fine.<br>
+See below pictures for reference.<br>
+<img src="Node_resources/Fixture_Alignment_Puck__Fixture.jpeg" width=42% height=42%>
+<img src="Node_resources/Fixture_Alignment_Puck__Fixture_2.jpeg" width=35% height=35%>
+6. We then click on `Next` to continue to do the same for Red, Green & Blue pucks.
+7. At the end, ZacTrack will now start the refinement process trying to find the center of the beam.<br>
+   This will help ZacTrack to figure out where the fixture is in the 3D space.<br>
+   During the Refinement Process, it is also possible to adjust the `Resolution`, the default for which is `8 Ticks`.<br>
+   The lower the ticks, the more time it takes to Refine but gives a much more precise location of the fixture in the 3D space.<br>
+   <img src="Node_resources/Untitled%202.png" width=35% height=35%>
+8. Once the Refinement Process is finished, you would see a screen like this:<br>
+<img src="Node_resources/Untitled%203.png" width=35% height=35%>
+9. Perform `Show Upload`.
 
-    
-    ![Untitled](Node_resources/Untitled.png)
-    
-3. Ensure Use `Console for Centering` and `Advanced Mode` are both set to `no` and click `Next`.
-    
-    ![Untitled](Node_resources/Untitled%201.png)
-    
-4. Ensure `Highlight` is toggled on.
-    
-    ![Fixture Alignment.png](Node_resources/Fixture_Alignment.png)
-    
-5. Set `Dimmer` to `255` and use the Track Pad to point the fixture at Black Puck.
-It doesn’t have to be in the center but as long as the beam is fairly falling on the black puck, it will be fine. See below pictures for reference.
-    
-    ![Fixture Alignment Puck & Fixture.jpeg](Node_resources/Fixture_Alignment_Puck__Fixture.jpeg)
-    
-
-![Fixture Alignment Puck & Fixture 2.jpeg](Node_resources/Fixture_Alignment_Puck__Fixture_2.jpeg)
-
-1. We then click on `Next` to continue to do the same for Red, Green & Blue pucks.
-2. At the end, ZacTrack will now start the refinement process trying to find the center of the beam.
-This will help ZacTrack to figure out where the fixture is in the 3D space. During the Refinement Process, it is also possible to adjust the `Resolution`, the default for which is `8 Ticks`.
-The lower the ticks, the more time it takes to Refine but gives a much more precise location of the fixture in the 3D space.
-
-![Untitled](Node_resources/Untitled%202.png)
-
-1. Once the Refinement Process is finished, you would see a screen like this:
-
-![Untitled](Node_resources/Untitled%203.png)
-
-1. Perform `Show Upload`.
-
-## Adding Actors
+# Add Actors
 
 1. We now need to add the Trackers by going to `Show Editor` → `Actor`.
 2. Dismount one of the Trackers from the Charging Station and it will show up in the `Actor` window.
 This might take a second or two.
-3. Once the Tracker shows up, press and hold on the shown Tracker and select `Auto Add`.
-    
-    ![Adding Trackers to Actors](Node_resources/Adding_Actor.png)
-    
-    Adding Trackers to Actors
-    
+3. Once the Tracker shows up, press and hold on the shown Tracker and select `Auto Add`.<br>
+<img src="Node_resources/Adding_Actor.png" width=75% height=35%>
 4. The name of the `Tracker xxxxxx` now changes to `Actor 01`.
 5. Perform `Show Upload`.
-6. Go to `Live`, select your Fixture, disable `Console` next to `Assignment` option and set `Assignment` to `Actor 01 (1)`.
-7. To switch on the Dimmer, set the `Base Channel Values` from `Console` to `Highlight`.
+
+# Start Tracking
+1. Go to `Live`, select your Fixture, disable `Console` next to `Assignment` option and set `Assignment` to `Actor 01 (1)`.
+2. To switch on the Dimmer, set the `Base Channel Values` from `Console` to `Highlight`.
