@@ -25,7 +25,9 @@ To know more about System Calibration, visit [here](https://www.notion.so/ZacTra
 Choose one from here or create a new custom fixture type by following the [Fixture Builder guide](https://www.notion.so/ZacTrack-Fixture-Builder-Guide-9203e4c93e4d49e792c04c0b32fa4d12).
 5. Perform a `Show Upload` by clicking on the alert icon on the top-right corner of the screen and choosing `Upload to Server`.
 6. Then, head over to `Show Editor` → `Fixtures` and add the fixture you added into the show by clicking on the green plus icon [**➕**].<br>
-<img src="Node_resources/Fixtures.png" width=35% height=35%>
+<p align="center">
+    <img style="align:center" src="Node_resources/Fixtures.png" width=50% height=50%>
+</p>
 
 7. Click on `Fixture Type` and choose the fixture you added.
 8. Set `Out Universe` to `OUT 1` and click on `OK`.
@@ -38,13 +40,19 @@ To check the fixture, ensure `Highlight Base Channels` is enabled.
 
 1. Once the fixture control is working manually, close the popup and head over to `Show Editor` → `Fixtures` and click on `Alignment Wizard`.
 2. Select fixtures that we are you want to align and press `Next`.<br>
-<img src="Node_resources/Untitled.png" width=35% height=35%>
+<p align="center">
+    <img src="Node_resources/Untitled.png" width=50%>
+</p>
 
 3. Ensure Use `Console for Centering` and `Advanced Mode` are both set to `no` and click `Next`.<br>
-<img src="Node_resources/Untitled%201.png" width=35% height=35%>
+<p align="center">
+    <img src="Node_resources/Untitled%201.png" width=50%>
+</p>
 
 4. Ensure `Highlight` is toggled on.<br>
-<img src="Node_resources/Fixture_Alignment.png" width=35% height=35%>
+<p align="center">
+    <img src="Node_resources/Fixture_Alignment.png" width=50%>
+</p>
 
 5. Set `Dimmer` to `255` and use the Track Pad to point the fixture at Black Puck.<br>
 It doesn’t have to be in the center but as long as the beam is fairly falling on the black puck, it will be fine.<br>
