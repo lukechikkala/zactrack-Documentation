@@ -43,13 +43,10 @@ Once the calibration is finished, the stage elements (like props, etc.) can be f
 2. Place 4 Anchors at 3.0 ~ 4.0 meters, assymetrically.
 > **Note**<br>
 The anchors cannot be farther than 30 meters between each other.
-
 3. Ensure the Anchors placed at least 0.5 meters away from any reflective surfaces (like walls, etc.).<br>
 `<image_of_anchor_and_wall>`
-
 4. Ensure that the Anchors are placed only in landscape mode; either 0° or 180° flat.<br>
 `<image_of_anchor_rotation>`
-
 5. Ensure that the Anchors are not inclined down or up.
 6. Ensure that all the Anchors have line-of-sight to the pucks (we will place them in the coming steps) or trackers.
 7. Switch the Pucks ON (power button at the bottom) and ensure it's blinking blue.
@@ -85,13 +82,12 @@ They do not need to be in a perfect shape.
 6. Ensure `Advanced Mode` is set to `No` and that the `4/4 Trackers Online` is visible next to it.
 7. Tap on `Next`; here it shows a short guide of Puck placements.
 8. Proceed to the last step and it should now show the following screen<br>
-`<picture_of_preparing_mesh_arrangement>`
-`<picture_of_preparing_mesh_arrangement>`
-`<picture_of_preparing_mesh_arrangement>`
-`<picture_of_calibration_finished>`
+`<picture_of_preparing_mesh_arrangement>`<br>
+`<picture_of_preparing_mesh_arrangement>`<br>
+`<picture_of_preparing_mesh_arrangement>`<br>
+`<picture_of_calibration_finished>`<br>
 9. Proceed to the next steps only if the Calibration Result is shown as **Good**.<br>
 If not, move the pucks and ensure the line-of-sight is clear and try the calibration again.
-
 10. There should not be more than 2 attempts.<br>
 If the line-of-sight is extremely clear, the system directly skips the Calibration Progress.
 11. Perform `Show Upload`.
