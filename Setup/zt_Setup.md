@@ -96,24 +96,24 @@ They do not need to be in a perfect shape.
 8. Proceed to the last step and it should now show the following screen:<br>
 <p align="center">
     <img src="resources/System_Calibration_4.png" width=50% height=50%>
-</p><br>
+</p>
 At this point, ZacTrack is algorithmically preparing to create a virtual mesh.<br>
 <p align="center">
     <img src="resources/System_Calibration_5.png" width=50% height=50%>
-</p><br>
+</p>
 
 9. After several hundreds of iterations, it should calibrate the virtual space to match the real-world.<br>
 There should not be more than 2 attempts.<br>
 If the line-of-sight is extremely clear, the system will even skip the **Calibration Progress** screen.<br>
 <p align="center">
 	<img src="resources/System_Calibration_6.png" width=50% height=50%>
-</p><br>
+</p>
 
-9. Proceed to the next steps only if the `Calibration Result` is shown as `Good`.<br>
+10. Proceed to the next steps only if the `Calibration Result` is shown as `Good`.<br>
 If not, move the pucks and ensure the line-of-sight is extremely clear and try the calibration process once again.
 
 <p align="center">
     <img src="resources/System_Calibration_7.png" width=50% height=50%>
-</p><br>
+</p>
 
-10. Perform `Show Upload`.
+11. Perform `Show Upload`.
