@@ -77,17 +77,43 @@ They do not need to be in a perfect shape.
 1. Go to `Show Editor` → `Points`.
 2. Tap on `System Calibration`
 3. Select `Reinitialize System (Auto)` → `Next`.
+<p align="center">
+    <img src="resources/System_Calibration_1.png" width=50% height=50%>
+</p>
+
 4. ZacTrack App will now show the 8 anchors again; to emphasize the anchors it's calibrating.
+<p align="center">
+    <img src="resources/System_Calibration_2.png" width=50% height=50%>
+</p>
+
 5. Tap on `Next`.
 6. Ensure `Advanced Mode` is set to `No` and that the `4/4 Trackers Online` is visible next to it.
+<p align="center">
+    <img src="resources/System_Calibration_3.png" width=50% height=50%>
+</p>
+
 7. Tap on `Next`; here it shows a short guide of Puck placements.
-8. Proceed to the last step and it should now show the following screen<br>
-`<picture_of_preparing_mesh_arrangement>`<br>
-`<picture_of_preparing_mesh_arrangement>`<br>
-`<picture_of_preparing_mesh_arrangement>`<br>
-`<picture_of_calibration_finished>`<br>
-9. Proceed to the next steps only if the Calibration Result is shown as **Good**.<br>
-If not, move the pucks and ensure the line-of-sight is clear and try the calibration again.
-10. There should not be more than 2 attempts.<br>
-If the line-of-sight is extremely clear, the system directly skips the Calibration Progress.
-11. Perform `Show Upload`.
+8. Proceed to the last step and it should now show the following screen:<br>
+<p align="center">
+    <img src="resources/System_Calibration_4.png" width=50% height=50%>
+</p><br>
+At this point, ZacTrack is algorithmically preparing to create a virtual mesh.<br>
+<p align="center">
+    <img src="resources/System_Calibration_5.png" width=50% height=50%>
+</p><br>
+
+9. After several hundreds of iterations, it should calibrate the virtual space to match the real-world.<br>
+There should not be more than 2 attempts.<br>
+If the line-of-sight is extremely clear, the system will even skip the **Calibration Progress** screen.<br>
+<p align="center">
+	<img src="resources/System_Calibration_6.png" width=50% height=50%>
+</p><br>
+
+9. Proceed to the next steps only if the `Calibration Result` is shown as `Good`.<br>
+If not, move the pucks and ensure the line-of-sight is extremely clear and try the calibration process once again.
+
+<p align="center">
+    <img src="resources/System_Calibration_7.png" width=50% height=50%>
+</p><br>
+
+10. Perform `Show Upload`.
