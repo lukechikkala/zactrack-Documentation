@@ -17,24 +17,22 @@ To know more about System Calibration, visit [here](../Setup/zt_Setup.md/#calibr
 ![ZacTrack and Console.png](Console_resources/ZacTrack_and_Console.png)
 
 # Add Fixtures to ZacTrack
-
-1. Click on the `⋮` on the top-right corner, followed by `New Show` and chose Empty Show.
-2. Follow the [zacTrack System Setup](../Setup/zt_Setup.md/#zactrack-system-setup) notes to setup the system.
-3. Go to `Show Editor` → `Fixture Types` and click on the green **➕ icon.**
-4. Here, zacTrack shows a list of built-in Fixtures.<br>
+1. Follow the [zacTrack System Setup](../Setup/zt_Setup.md/#zactrack-system-setup) notes to setup the system.
+2. Go to `Show Editor` → `Fixture Types` and click on the green **➕ icon.**
+3. Here, zacTrack shows a list of built-in Fixtures.<br>
 Choose one from here or create a new custom fixture type by following the [Fixture Builder guide](../Setup/zt_Fixture_Builder_Guide.md).
-5. Perform a `Show Upload` by clicking on the alert icon on the top-right corner of the screen and choosing `Upload to Server`.
-6. Then, head over to `Show Editor` → `Fixtures` and add the fixture you added into the show by clicking on the green plus icon [**➕**] .<br>
+4. Perform a `Show Upload` by clicking on the alert icon on the top-right corner of the screen and choosing `Upload to Server`.
+5. Then, head over to `Show Editor` → `Fixtures` and add the fixture you added into the show by clicking on the green plus icon [**➕**] .<br>
 <p align="center">
     <img src="Console_resources/Fixtures_mit_Consoles.png" width="50%">
 </p>
 
-7. Click on `Fixture Type` and choose the fixture you added.
-8. Set `Out Universe` to `OUT 101` and click on `OK`.
-9. Set `In Universe` to `In 1`.
-10. Perform `Show Upload`.
-11. In `Show Editor` → `Fixtures`, select the target icon (under `CP/AF` column) next to fixture to check whether the fixture itself is controllable from ZacTrack.
-12. This will popup a window showing the basic fixture controls like `Dimmer`, `Iris`, `Focus`, `Zoom`, `Pan` & `Tilt`, where it allows you to manually control the fixture for testing purposes.<br>
+6. Click on `Fixture Type` and choose the fixture you added.
+7. Set `Out Universe` to `OUT 101` and click on `OK`.
+8. Set `In Universe` to `In 1`.
+9. Perform `Show Upload`.
+10. In `Show Editor` → `Fixtures`, select the target icon (under `CP/AF` column) next to fixture to check whether the fixture itself is controllable from ZacTrack.
+11. This will popup a window showing the basic fixture controls like `Dimmer`, `Iris`, `Focus`, `Zoom`, `Pan` & `Tilt`, where it allows you to manually control the fixture for testing purposes.<br>
 To check the fixture, ensure `Highlight Base Channels` is enabled.
 
 # Teach zactrack placement of fixtures in real world
