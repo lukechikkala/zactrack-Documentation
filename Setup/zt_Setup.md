@@ -1,11 +1,13 @@
 # zactrack System Setup
 **[zacTrack Documentation](../README.md) `>` [zacTrack System Setup](zt_Setup.md)**
 
-Here goes the setup for setting up zactrack server, anchors, remote, etc.
 
 # Index
 * [Requirements](#requirements)
 * [Network Setup](#network-setup)
+	* [Layout](#layout)
+	* [Setting up Wi-Fi Router](#setting-up-wi-fi-router)
+	* [Download zactrack app](#download-zactrack-app)
 * [Mounting](#mounting)
 	* [Preperation](#preparation)
 	* [Adding Anchors in zactrack App](#adding-anchors-in-zactrack-app)
@@ -35,6 +37,33 @@ Here below you will find the network setup of the
 	<img src="resources/Network_Setup.png" width=50% height=50%>
 </p>
 
+## Setting up Wi-Fi Router
+This documentation was built using `Netgear WNR3500L`<br>
+But, virtually any basic home router would still work depending on the space you are trying to cover.<br>
+<p align="center">
+    <img src="resources/Wi-Fi_Router.png" width=25% height=25%>
+</p>
+
+The most important configuration you would do here is to ensure that the DHCP range of the Wi-Fi router and the zactrack server are with in the same subnet (range).<br>
+The IP Address of the server used for this documentation is `172.20.3.15`.<br>
+Hence, we set the DHCP range of our Wi-Fi router to be around this range, say, `172.20.1.100` ~ `172.20.1.200` and the `IP Subnet Mask` to be `255.255.0.0`.<br>
+Here below is a picture to show you the settings on the web configuration page of the router.<br>
+<p align="center">
+    <img src="resources/Wi-Fi_Settings.png" width=50% height=50%>
+</p>
+
+**Summary** (for reference only)
+```
+SSID			: zactrack
+Password		: password@123
+Encryption		: WPA2-AES
+Router IP		: 172.20.1.1
+IP Subnet Mask	: 255.255.0.0
+DHCP Server		: Enabled
+DHCP IP Start	: 172.20.1.100
+DHCP IP End		: 172.20.1.200
+```
+
 ## Download zactrack app
 1. The zactrack app is not available for download from the Play Store.<br>
 But the Android application can be downloaded from the server itself.
@@ -43,18 +72,17 @@ But the Android application can be downloaded from the server itself.
 
 https://user-images.githubusercontent.com/23566967/188103940-23f01f4d-5feb-4cf3-8828-983f7c79efad.mp4
 
-3. Open a web browser on the Android tablet.
-4. Type the IP Address of the zactrak server in the web browser.
-5. It should then show the following page:
+4. If the video fails to load, follow the below steps.
+5. Open a web browser on the Android tablet.
+6. Type the IP Address of the zactrak server in the web browser.
+7. It should then show the following page:
 <p align="center">
     <img src="resources/Webpage.png" width=50% height=50%>
 </p>
 
-6. Here, click on `Tablet Applications`.
-7. Download the `zactrack-client_x.y.z.apk` file.
-
-Download the zactrack app from the zactrack Server.<br>
-
+8. Here, click on `Tablet Applications`.
+9. Download the `zactrack-client_x.y.z.apk` file.
+10. Once downloaded, install and open the application.
 
 # Mounting
 ## Preparation
