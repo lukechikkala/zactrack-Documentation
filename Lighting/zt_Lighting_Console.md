@@ -7,16 +7,16 @@ To know more about System Calibration, visit [here](../Setup/zt_Setup.md/#calibr
 
 # Index
 * [Setup](#setup)
-* [Add Fixtures to ZacTrack](#add-fixtures-to-zactrack)
+* [Add Fixtures to zactrack](#add-fixtures-to-zactrack)
 * [Teach zactrack placement of fixtures in real world](#teach-zactrack-placement-of-fixtures-in-real-world)
 * [Add Actors](#add-actors)
 * [Start Tracking](#start-tracking)
 
 # Setup
 
-![ZacTrack and Console.png](Console_resources/ZacTrack_and_Console.png)
+![zactrack and Console.png](Console_resources/zactrack_and_Console.png)
 
-# Add Fixtures to ZacTrack
+# Add Fixtures to zactrack
 1. Follow the [zacTrack System Setup](../Setup/zt_Setup.md/#zactrack-system-setup) notes to setup the system.
 2. Go to `Show Editor` → `Fixture Types` and click on the green **➕ icon.**
 3. Here, zacTrack shows a list of built-in Fixtures.<br>
@@ -31,7 +31,7 @@ Choose one from here or create a new custom fixture type by following the [Fixtu
 7. Set `Out Universe` to `OUT 101` and click on `OK`.
 8. Set `In Universe` to `In 1`.
 9. Perform `Show Upload`.
-10. In `Show Editor` → `Fixtures`, select the target icon (under `CP/AF` column) next to fixture to check whether the fixture itself is controllable from ZacTrack.
+10. In `Show Editor` → `Fixtures`, select the target icon (under `CP/AF` column) next to fixture to check whether the fixture itself is controllable from zactrack.
 11. This will popup a window showing the basic fixture controls like `Dimmer`, `Iris`, `Focus`, `Zoom`, `Pan` & `Tilt`, where it allows you to manually control the fixture for testing purposes.<br>
 To check the fixture, ensure `Highlight Base Channels` is enabled.
 
@@ -62,8 +62,8 @@ See below pictures for reference.<br>
 </p>
 
 6. We then click on `Next` to continue to do the same for Red, Green & Blue pucks.
-7. At the end, ZacTrack will now start the refinement process trying to find the center of the beam.<br>
-This will help ZacTrack to figure out where the fixture is in the 3D space.<br>
+7. At the end, zactrack will now start the refinement process trying to find the center of the beam.<br>
+This will help zactrack to figure out where the fixture is in the 3D space.<br>
 During the Refinement Process, it is also possible to adjust the `Resolution`, the default for which is `8 Ticks`.<br>
 The lower the ticks, the more time it takes to Refine but gives a much more precise location of the fixture in the 3D space.<br>
 <p align="center">

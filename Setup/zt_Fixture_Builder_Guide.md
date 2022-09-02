@@ -1,10 +1,10 @@
 # Fixture Builder Guide
 
-Zactrack uses `.ztft` filetype for it's native fixtre types.<br>
-From Zactrack `v3.19.3.0` [ZacTrack Client `v7.6.0`], it allows to import `GDTF` fixture types.<br>
-ZacTrack can export to 2 different filetypes:
-	* ZacTrack Native
-	* ZacTrack Fixture Type
+zactrack uses `.ztft` filetype for it's native fixtre types.<br>
+From zactrack `v3.19.3.0` [zactrack Client `v7.6.0`], it allows to import `GDTF` fixture types.<br>
+zactrack can export to 2 different filetypes:
+	* zactrack Native
+	* zactrack Fixture Type
 
 > **Note:**<br>
 It is possible to access & create fixture types from the Android/Bluestacks app even if the server is not connected.<br>

@@ -102,4 +102,4 @@ Tracker
 
 1. Ensure coordinates of both the software applications are same.
 2. Start ambience recording on Mac
-3. The video assumes that you already have a ZacTrack system up and running.
+3. The video assumes that you already have a zactrack system up and running.

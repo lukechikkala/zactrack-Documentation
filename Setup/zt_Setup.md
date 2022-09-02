@@ -1,4 +1,5 @@
-# ZacTrack System Setup
+# zactrack System Setup
+**[zacTrack Documentation](../README.md) `>` [zacTrack System Setup](zt_Setup.md)**
 
 Here goes the setup for setting up zactrack server, anchors, remote, etc.
 
@@ -7,12 +8,12 @@ Here goes the setup for setting up zactrack server, anchors, remote, etc.
 * [Network Setup](#network-setup)
 * [Mounting](#mounting)
 	* [Preperation](#preparation)
-	* [Adding Anchors in ZacTrack App](#adding-anchors-in-zactrack-app)
+	* [Adding Anchors in zactrack App](#adding-anchors-in-zactrack-app)
 * [Calibration](#calibration)
 
 # Requirements
 ```
-1 x ZacTrack SMART Server running v3.19.2.0
+1 x zactrack SMART Server running v3.19.2.0
 8 x Anchors
 4 x Pucks
 1 x Tracker [optionally more]
@@ -29,7 +30,7 @@ Here goes the setup for setting up zactrack server, anchors, remote, etc.
 
 # Network Setup
 `<network_diagram>`<br>
-Download the ZacTrack App from the ZacTrack Server.
+Download the zactrack App from the zactrack Server.
 
 
 # Mounting
@@ -43,16 +44,24 @@ Once the calibration is finished, the stage elements (like props, etc.) can be f
 2. Place 4 Anchors at 3.0 ~ 4.0 meters, assymetrically.
 > **Note**<br>
 The anchors cannot be farther than 30 meters between each other.
-3. Ensure the Anchors placed at least 0.5 meters away from any reflective surfaces (like walls, etc.).<br>
-`<image_of_anchor_and_wall>`
+3. Ensure the Anchors are placed at least 0.5 meters away from any reflective surfaces (like walls, etc.).<br>
+<p align="center">
+    <img src="resources/Anchor_Placement.png" width=50% height=50%>
+</p>
+
 4. Ensure that the Anchors are placed only in landscape mode; either 0° or 180° flat.<br>
-`<image_of_anchor_rotation>`
+<p align="center">
+    <img src="resources/Anchor_Orientation.png" width=50% height=50%>
+</p>
+
 5. Ensure that the Anchors are not inclined down or up.
 6. Ensure that all the Anchors have line-of-sight to the pucks (we will place them in the coming steps) or trackers.
 7. Switch the Pucks ON (power button at the bottom) and ensure it's blinking blue.
 8. Place the 4 Pucks on the stage (~3m apart from each other) in an approximate square/rectangle shape.<br>
 They do not need to be in a perfect shape.
-`<picture_of_puck_placement>`
+<p align="center">
+    <img src="resources/Puck_Placement_2.png" width=35%>
+</p>
 9. Ensure that the axes (X, Y & Z axis) are properly aligned.
 ```
 	Black   : Origin
@@ -62,8 +71,8 @@ They do not need to be in a perfect shape.
 ```
 10. Ensure the stage is empty.
 
-## Adding Anchors in ZacTrack App
-1. Open the ZacTrack app on the Android Tablet.
+## Adding Anchors in zactrack App
+1. Open the zactrack app on the Android Tablet.
 2. Tap on the `⋮` on the top-right corner, followed by `New Show` and chose Empty Show.
 3. Go to `Show Editor` → `Points`.
 4. Ensure all 8 Anchors are detectable here.<br>
@@ -81,7 +90,7 @@ They do not need to be in a perfect shape.
     <img src="resources/System_Calibration_1.png" width=50% height=50%>
 </p>
 
-4. ZacTrack App will now show the 8 anchors again; to emphasize the anchors it's calibrating.
+4. zactrack App will now show the 8 anchors again; to emphasize the anchors it's calibrating.
 <p align="center">
     <img src="resources/System_Calibration_2.png" width=50% height=50%>
 </p>
@@ -97,7 +106,7 @@ They do not need to be in a perfect shape.
 <p align="center">
     <img src="resources/System_Calibration_4.png" width=50% height=50%>
 </p>
-At this point, ZacTrack is algorithmically preparing to create a virtual mesh.<br>
+At this point, zactrack is algorithmically preparing to create a virtual mesh.<br>
 <p align="center">
     <img src="resources/System_Calibration_5.png" width=50% height=50%>
 </p>

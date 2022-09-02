@@ -7,14 +7,14 @@ TouchDesigner is a node-based software that allows for creating some interaction
 
 # Software Versions
 ```
-• ZacTrack      | 'v3.19.3.0'
+• zactrack      | 'v3.19.3.0'
 • TouchDesigner | 'v2022.26590'
 • Windows 10    | '21H1, Build: 19043.1889'
 • macOS         | <macos_version>
 ```
 
 # Requirements
-1. ZacTrack System
+1. zactrack System
 2. PC or Mac running [TouchDesigner](https://derivative.ca/UserGuide/Install_TouchDesigner).
 3. Stereo System
 
