@@ -78,11 +78,23 @@ Blue	: Custom []
 2. Tap on the `⋮` on the top-right corner, followed by `New Show` and chose Empty Show.
 3. Go to `Show Editor` → `Points`.
 4. Ensure all 8 Anchors are detectable here.<br>
-`<picture_of_ofline_anchors_vs_online_anchors>`
+<p align="center">
+    <img src="resources/Available_Anchors.png" width=50% height=50%>
+</p>
+
 5. Tap & hold on one of the Anchors and select `Auto Add All`<br>
-`<picture_of_Auto_add_All>`
+<p align="center">
+    <img src="resources/Available_Anchors_Auto_Add_All.png" width=50% height=50%>
+</p>
+
 6. Perform a `Show Upload` by clicking on the alert icon on the top-right corner of the screen and choosing `Upload to Server`.<br>
-`<picture_of_show_upload>`
+<p align="center">
+    <img src="resources/Show_Upload_1.png" width=50% height=50%>
+</p><br>
+
+<p align="center">
+    <img src="resources/Show_Upload_2.png" width=50% height=50%>
+</p>
 
 # Calibration
 1. Go to `Show Editor` → `Points`.
