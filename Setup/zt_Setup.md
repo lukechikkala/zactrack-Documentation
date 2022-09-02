@@ -65,10 +65,10 @@ They do not need to be in a perfect shape.
 
 9. Ensure that the axes (X, Y & Z axis) are properly aligned.
 ```
-	Black   : Origin
-	Red     : X-Axis [Along Stage Left]
-	Green   : Y-Axis [Along Up Stage]
-	Blue	: Custom []
+Black   : Origin
+Red     : X-Axis [Along Stage Left]
+Green   : Y-Axis [Along Up Stage]
+Blue	: Custom []
 ```
 
 10. Ensure the stage is empty.
