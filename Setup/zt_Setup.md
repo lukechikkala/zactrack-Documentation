@@ -55,7 +55,7 @@ Here below is a picture to show you the settings on the web configuration page o
 ## Summary (for reference only)
 
 |					 |					|
-|:-------------------|:-----------------|
+|-------------------:|:-----------------|
 |`SSID				`|`zactrack`		|
 |`Password			`|`password@123`	|
 |`Encryption		`|`WPA2-AES`		|
