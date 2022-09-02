@@ -62,6 +62,7 @@ They do not need to be in a perfect shape.
 <p align="center">
     <img src="resources/Puck_Placement_2.png" width=35%>
 </p>
+
 9. Ensure that the axes (X, Y & Z axis) are properly aligned.
 ```
 	Black   : Origin
@@ -69,6 +70,7 @@ They do not need to be in a perfect shape.
 	Green   : Y-Axis [Along Up Stage]
 	Blue	: Custom []
 ```
+
 10. Ensure the stage is empty.
 
 ## Adding Anchors in zactrack App
