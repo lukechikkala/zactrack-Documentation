@@ -41,11 +41,8 @@ But the Android application can be downloaded from the server itself.
 2. Connect the Android tablet to the same network as the zactrack server.
 3. Follow the video guide here below:
 <p align="center">
-	<video width="320" height="240" controls>
-		<source src="Downloadingh_zt_app.mp4" type="video/mp4">
-	</video>
+	https://user-images.githubusercontent.com/23566967/188103940-23f01f4d-5feb-4cf3-8828-983f7c79efad.mp4
 </p>
-
 
 3. Open a web browser on the Android tablet.
 4. Type the IP Address of the zactrak server in the web browser.
