@@ -52,17 +52,19 @@ Here below is a picture to show you the settings on the web configuration page o
     <img src="resources/Wi-Fi_Settings.png" width=50% height=50%>
 </p>
 
-**Summary** (for reference only)
-```
-SSID            : zactrack
-Password        : password@123
-Encryption      : WPA2-AES
-Router IP       : 172.20.1.1
-IP Subnet Mask  : 255.255.0.0
-DHCP Server     : Enabled
-DHCP IP Start   : 172.20.1.100
-DHCP IP End     : 172.20.1.200
-```
+## Summary (for reference only)
+
+|					 |					|
+|:-------------------|:-----------------|
+|`SSID				`|`zactrack`		|
+|`Password			`|`password@123`	|
+|`Encryption		`|`WPA2-AES`		|
+|`Router IP			`|`172.20.1.1`		|
+|`IP Subnet Mask	`|`255.255.0.0`		|
+|`DHCP Server		`|`Enabled`			|
+|`DHCP IP Start		`|`172.20.1.100`	|
+|`DHCP IP End		`|`172.20.1.200`	|
+
 
 ## Download zactrack app
 1. The zactrack app is not available for download from the Play Store.<br>
