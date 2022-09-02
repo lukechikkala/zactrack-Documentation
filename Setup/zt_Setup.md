@@ -29,8 +29,35 @@ Here goes the setup for setting up zactrack server, anchors, remote, etc.
 [Download Bluestacks](https://www.bluestacks.com/)
 
 # Network Setup
-`<network_diagram>`<br>
-Download the zactrack App from the zactrack Server.
+## Layout
+Here below you will find the network setup of the 
+<p align="center">
+	<img src="resources/Network_Setup.png" width=50% height=50%>
+</p>
+
+## Download zactrack app
+1. The zactrack app is not available for download from the Play Store.<br>
+But the Android application can be downloaded from the server itself.
+2. Connect the Android tablet to the same network as the zactrack server.
+3. Follow the video guide here below:
+<p align="center">
+	<video width="320" height="240" controls>
+		<source src="Downloadingh_zt_app.mp4" type="video/mp4">
+	</video>
+</p>
+
+
+3. Open a web browser on the Android tablet.
+4. Type the IP Address of the zactrak server in the web browser.
+5. It should then show the following page:
+<p align="center">
+    <img src="resources/Webpage.png" width=50% height=50%>
+</p>
+
+6. Here, click on `Tablet Applications`.
+7. Download the `zactrack-client_x.y.z.apk` file.
+
+Download the zactrack app from the zactrack Server.<br>
 
 
 # Mounting
@@ -91,7 +118,6 @@ Blue	: Custom []
 <p align="center">
     <img src="resources/Show_Upload_1.png" width=50% height=50%>
 </p><br>
-
 <p align="center">
     <img src="resources/Show_Upload_2.png" width=50% height=50%>
 </p>
