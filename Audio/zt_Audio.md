@@ -19,17 +19,7 @@ TouchDesigner is a node-based software that allows for creating some interaction
 3. Stereo System
 
 # TouchDesigner Setup (Win10)
-At the time of writing this article, it is not possible yet to select a specific Network Adapter of your PC to choose to listen for PSN traffic in TouchDesigner.<br>
-This is clearly a TouchDesigner's limitation<br>
-However, the developers of TouchDesigner are [confident to fix this with version `2002.27000+`](resources/PSN_CHOP_Interface_dev_comment.png); [Link to Touch Designer Forum](https://forum.derivative.ca/t/posinet-chop-artnet-cant-receive-data-simultaneous/150683/9?u=lukechikkala)<br>
-For this reason, we need to disable all Network Interfaces except the one we are expecting the PSN traffic from.
-1. To do this, open `Network Connections` by clicking on Start (Windows Icon) and type `View Network Connections`.
-<p align="center">
-    <img src="resources/View_Network_Connections.png" width=50% height=50%>
-</p>
-
-2. Here, select the network interface that is not expected to receive PSN traffic, right-click and choose `Disable`.
-Do this for all the network interfaces except for the one that is expected to receive PSN traffic.
+If you are using a TouchDesigner `v2022.26590` or older, please follow the guide [here](TouchDesigner_Setup_v2022.26590.md) to do the initial setup.
 3. Now, we open TouchDesigner
 It comes with some existing nodes, but we take a new file.
 4. `File` → `New`

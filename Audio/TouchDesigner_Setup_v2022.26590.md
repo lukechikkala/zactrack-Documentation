@@ -13,6 +13,7 @@ If you are still using TouchDesigner `v2022.26590` or below, you will need to di
 2. Select the network interface that is not expected to receive PSN traffic, right-click and choose `Disable`.<br>
 Do this for all the network interfaces except for the one that is expected to receive PSN traffic.
 
+# On macOS
 
 # Resources
 
