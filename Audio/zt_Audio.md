@@ -1,6 +1,12 @@
 # zactrack :: Audio
 **[zacTrack Documentation](../README.md) `>` [zacTrack with Audio](zt_Audio.md)**
 
+# Index
+* [Introduction](#introduction)
+* [Software Versions](#software-versions)
+* [Requirements](#requirements)
+* [TouchDesigner Setup](#touchdesigner-setup)
+
 # Introduction
 
 TouchDesigner is a node-based software that allows for creating some interaction between several protocols. It is mainly used for visual interactions but in our case we are going to use it to get the XYZ data provided by zactrack over PSN to modify the PAN & Volume.
@@ -18,7 +24,7 @@ TouchDesigner is a node-based software that allows for creating some interaction
 2. PC or Mac running [TouchDesigner](https://derivative.ca/UserGuide/Install_TouchDesigner).
 3. Stereo System
 
-# TouchDesigner Setup (Win10)
+# TouchDesigner Setup
 If you are using a TouchDesigner `v2022.26590` or older, please follow the guide [here](TouchDesigner_Setup_v2022.26590.md) to do the initial setup.
 3. Now, we open TouchDesigner
 It comes with some existing nodes, but we take a new file.
