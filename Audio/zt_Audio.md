@@ -9,7 +9,8 @@
 
 # Introduction
 
-TouchDesigner is a node-based software that allows for creating some interaction between several protocols. It is mainly used for visual interactions but in our case we are going to use it to get the XYZ data provided by zactrack over PSN to modify the PAN & Volume.
+TouchDesigner is a node-based software that allows for creating some interaction between several protocols.<br>
+It is mainly used for visual interactions but in our case we are going to use it to get the XYZ data provided by zactrack over PSN to modify the PAN & Volume.
 
 # Software Versions
 ```
@@ -26,22 +27,30 @@ TouchDesigner is a node-based software that allows for creating some interaction
 
 # TouchDesigner Setup
 If you are using a TouchDesigner `v2022.26590` or older, please follow the guide [here](TouchDesigner_Setup_v2022.26590.md) to do the initial setup.
-3. Now, we open TouchDesigner
+
+1. Open TouchDesigner.<br>
 It comes with some existing nodes, but we take a new file.
-4. `File` → `New`
+2. `File` → `New`
 The application will restart and we will have a new project.
-5. We will first need to ensure that the Audio is being routed through TouchDesigner.
+3. We will first need to ensure that the Audio is being routed through TouchDesigner.<br>
 Usually, the Audio Routing in our PC is something like this:
 <p align="center">
     <img src="resources/2_Audio_Routing_Default.png" width=50% height=50%>
-</p><br>
+</p>
 We now need to route it via TouchDesigner and it would look something like this:<br>
 <p align="center">
     <img src="resources/3_Audio_Routing_TD.png" width=50% height=50%>
 </p>
 
-6. To achieve this, we will now add a new operator (aka ‘node’) either by double-clicking or by hitting `Tab` on the keyboard or by right-clicking on the empty grid area (we call this area as Network Editor) and selecting `Add Operator`.
-7. Head over to the `CHOP` tab and select `PosiStageNet`.
+4. To achieve this, we will now add a new operator (aka 'node'):<br>
+
+
+double-clicking on the empty grid area (we call this area as Network Editor) and selecting `Add Operator`<br>
+or<br>
+by hitting `Tab` on the keyboard<br>
+or<br>
+by right-clicking .
+5. Head over to the `CHOP` tab and select `PosiStageNet`.
 <p align="center">
     <img src="resources/0_Chop_PSN.png" width=50% height=50%>
 </p><br>
@@ -50,7 +59,7 @@ It should look something like this:
     <img src="resources/Untitled.png" width=50% height=50%>
 </p>
 
-8. Select the PosiStageNet node and in the `Properties` pane of the node, ensure you have the following options set.
+6. Select the PosiStageNet node and in the `Properties` pane of the node, ensure you have the following options set.
 <p align="center">
     <img src="resources/Untitled%201.png" width=50% height=50%>
 </p>
