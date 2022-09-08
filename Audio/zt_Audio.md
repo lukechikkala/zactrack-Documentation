@@ -89,11 +89,16 @@ It looks something like this:
 11. In the `Parameter` window of the `Audio Device Out` `CHOP`, change the `Device` from `default` to your Speakers output, e.g., Audio Card, etc..<br>
 In my case, it's `X340 PRO (2-Intel(R) Display Audio)`
 <p align="center">
-	<img src="resources/5_ADO_Routing.png" width=50% height=50%>
+	<img src="resources/5_ADO_Route.png" width=50% height=50%>
 </p>
 
 12. Now, the input and output are configured.<br>
-The only missing link is the connection between these two nodes.
+The only missing link is the connection between these two nodes.<br>
+We connect the output of `Audio Device In` to the `Input 0` of `Audio Device Output`:
+<p align="center">
+	<img src="resources/6_ADI-ADO_Connection.gif.png" width=50% height=50%>
+</p>
+
 
 
 
