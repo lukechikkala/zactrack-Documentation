@@ -92,7 +92,8 @@ In my case, it's `X340 PRO (2-Intel(R) Display Audio)`
 	<img src="resources/5_ADO_Routing.png" width=50% height=50%>
 </p>
 
-12. Now, the input and output are configured.
+12. Now, the input and output are configured.<br>
+The only missing link is the connection between these two nodes.
 
 
 
