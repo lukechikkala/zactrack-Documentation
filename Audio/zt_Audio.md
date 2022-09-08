@@ -3,14 +3,18 @@
 
 # Index
 * [Introduction](#introduction)
-* [Software Versions](#software-versions)
+* [Goal](#goal)
 * [Requirements](#requirements)
+* [Software Versions](#software-versions)
 * [TouchDesigner Setup](#touchdesigner-setup)
 
 # Introduction
 
 TouchDesigner is a node-based software that allows for creating some interaction between several protocols.<br>
-It is mainly used for visual interactions but in our case we are going to use it to get the XYZ data provided by zactrack over PSN to modify the PAN & Volume.
+It is mainly used for visual interactions but in our case we are going to use it to get the XYZ data provided by zactrack over PSN to modify the PAN & Volume.<br>
+
+# Goal
+The idea is to play audio files from PC/Mac and pan the audio left or right based on zactrack's tracker position.
 
 # Requirements
 1. zactrack System
@@ -18,6 +22,7 @@ It is mainly used for visual interactions but in our case we are going to use it
 3. [Virtual VB Audio Cable (for Windows only)](https://vb-audio.com/Cable/#:~:text=%C2%A0%C2%A0VBCABLE_Driver_Pack43.zip%0A%C2%A0%C2%A0(1.09%20MB%20%2D%20OCT%202015%20/%20XP%20to%20WIN11%2032/64%20bits))
 4. `<macOS equivalent software here>` (for macOS only)
 5. Stereo System
+6. Audio Card (optional to connect Speakers to the PC/Mac)
 
 # Software Versions
 ```
@@ -81,7 +86,14 @@ It looks something like this:
 	<img src="resources/4_AIO_CHOP.png" width=50% height=50%>
 </p>
 
-11. In the `Parameter` window of the `Audio Device Out` `CHOP`, 
+11. In the `Parameter` window of the `Audio Device Out` `CHOP`, change the `Device` from `default` to your Speakers output, e.g., Audio Card, etc..<br>
+In my case, it's `X340 PRO (2-Intel(R) Display Audio)`
+<p align="center">
+	<img src="resources/5_ADO_Routing.png" width=50% height=50%>
+</p>
+
+12. Now, the input and output are configured.
+
 
 
 7. In the similar manner, proceed to add an `Audio Device Out` `CHOP`.
