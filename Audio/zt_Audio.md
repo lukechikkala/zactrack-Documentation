@@ -101,7 +101,7 @@ It would look something like this:
 	<img src="resources/1_ADI.png" width=50% height=50%>
 </p>
 
-4. Click on the `Audio Device In` `CHOP` to ensure it's selected.
+4. Click on the `Audio Device In` to ensure it's selected.
 5. Now headover to the `Parameters` Window on the top-right corner of the TouchDesigner software.<br>
 It looks something like this:
 <p align="center">
@@ -115,13 +115,13 @@ It looks something like this:
 	<img src="resources/3_ADI_Routing.png" width=50% height=50%>
 </p>
 
-7. We now need to add an `Audio Device Out` `CHOP`, just the way `Audio Device In` `CHOP` was added.<br>
+7. We now need to add an `Audio Device Out`, just the way `Audio Device In` was added.<br>
 It looks something like this:
 <p align="center">
 	<img src="resources/4_AIO_CHOP.png" width=50% height=50%>
 </p>
 
-8. In the `Parameters` window of the `Audio Device Out` `CHOP`, change the `Device` from `default` to your Speakers output, e.g., Audio Card, etc..<br>
+8. In the `Parameters` window of the `Audio Device Out`, change the `Device` from `default` to your Speakers output, e.g., Audio Card, etc..<br>
 In my case, it's `X340 PRO (2-Intel(R) Display Audio)`
 <p align="center">
 	<img src="resources/5_ADO_Route.png" width=50% height=50%>
@@ -137,7 +137,7 @@ We connect the output of `Audio Device In` to the `Input 0` of `Audio Device Out
 10. To whether TouchDesigner is able to properly route the audio, play an audio file or a YouTube video from the PC and check whether the audio is audible.
 
 ## PSN Setup
-1. Add a `PosiStageNet` `CHOP`
+1. Add a `PosiStageNet`
 <p align="center">
 	<img src="resources/6_PSN_CHOP.png" width=50% height=50%>
 </p><br>
@@ -145,20 +145,20 @@ We connect the output of `Audio Device In` to the `Input 0` of `Audio Device Out
 	<img src="resources/Untitled.png" width=50% height=50%>
 </p>
 
-6. In the `Parameters` window of the `PosiStageNet` `CHOP`, select the `Local Address` to any of the IP Addresses that belong to the network interface that is receiving PSN traffic.<br>
+6. In the `Parameters` window of the `PosiStageNet`, select the `Local Address` to any of the IP Addresses that belong to the network interface that is receiving PSN traffic.<br>
 It does not matter which IP Address (in case you have multiple IP Addresses assigned) as PSN is a multicast traffic.<br>
 As long as you have the IP Address belonging to the interface is selected, it will work.
 <p align="center">
 	<img src="resources/PSN_Set_Interface.png" width=50% height=50%>
 </p>
 
-7. You should now immediately see the tracker information in the `PosiStageNet` `CHOP`.
+7. You should now immediately see the tracker information in the `PosiStageNet`.
 <p align="center">
 	<img src="resources/PSN_Incoming.gif" width=50% height=50%>
 </p>
 
 8. When there is only one tracker, you should see 9 channels as in the picture above.<br>
-On the right half of the `PosiStageNet` `CHOP`, you will find the channel ID and on the left, the value of relevant channel.<br>
+On the right half of the `PosiStageNet`, you will find the channel ID and on the left, the value of relevant channel.<br>
 The channels are as below:
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
@@ -183,14 +183,14 @@ The channels are as below:
 ┃ Tracker-1's Rotation Z   ┃ tracker_0:rz      ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━┛
 ```
-As new trackers are added, 8 additional channels per tracker will be shown in the `PosiStageNet` `CHOP`.
+As new trackers are added, 8 additional channels per tracker will be shown in the `PosiStageNet`.
 
 9. We are only interested in the the tracker's `X` & `Y` position; in the TouchDesigner's language,<br>
 `tracker_0:tx`<br>
 `tracker_0:ty`
 
 ## Connecting Audio & PSN
-The `Audio Device Out` `CHOP` has a `Pan` parameter which ranges from `0` to `1`.<br>
+The `Audio Device Out` has a `Pan` parameter which ranges from `0` to `1`.<br>
 `0`, being pan all the way to left.<br>
 `1`, being pan all the way to right.<br>
 The default value is `0.5`, being pan in the center.
@@ -199,20 +199,20 @@ We need to connect zactrack's `x` position from a tracker to this `Pan` paramete
 However, as you can see, zactrack's "`x`" position's value can range far below `0` and above `1` depending on our stage setup.<br>
 For this reason, we need to normalise the zactrack's position data to range from `0` to `1`.
 
-1. We do this by using the `Math` `CHOP` in TouchDesinger.<br>
+1. We do this by using the `Math` in TouchDesinger.<br>
 <p align="center">
 	<img src="resources/Math_CHOP_Find.png" width=35% height=50%>&nbsp;&nbsp;&nbsp;&nbsp;
 	<img src="resources/Math_CHOP.png" width=25% height=50%>
 </p>
 
-2. We now connect the `PosiStateNet` `CHOP`'s output to the `Math` `CHOP`.
+2. We now connect the `PosiStateNet`'s output to the `Math`.
 <p align="center">
 	<img src="resources/PSN_to_Math.gif" width=100%>
 </p>
 
-3. In the `Math` `CHOP`'s, `Parameters` window, click on `Range`.<br>
+3. In the `Math`'s, `Parameters` window, click on `Range`.<br>
 `From Range`, is for the input's values, for zactrack's PSN's range.<br>
-`To Range` is for the output's values, for `Audio Device Out` `CHOP`'s `Pan` range.
+`To Range` is for the output's values, for `Audio Device Out`'s `Pan` range.
 
 4. Place the Actor on the extreme left of your space/stage and take note of the `tracker_0:tx`'s value **from the `PosiStageNet`'s `CHOP`**.<br>
 In our testing space the value of the tracker in the extreme left corner is roughly aroung `2.8`.
@@ -226,21 +226,21 @@ In our testing space the value of the tracker in the extreme right corner is rou
 	<img src="resources/PSN_Right.png">
 </p>
 
-6. We now need to enter these values (`2.8` & `0.2`, in our test setup's case) in the `Math` `CHOP`'s `From Range` parameters.
+6. We now need to enter these values (`2.8` & `0.2`, in our test setup's case) in the `Math`'s `From Range` parameters.
 <p align="center">
 	<img src="resources/Math_CHOP_Range.png" width=50% height=50%>
 </p>
 
-7. You can now move the tracker from left to right and see that the `Math` `CHOP`'s `tracker_0:tx` value only go from 0 to 1.<br>
-This is now ideal for influencing the `Pan` parameter of the `Audio Device Out` `CHOP`.
+7. You can now move the tracker from left to right and see that the `Math`'s `tracker_0:tx` value only go from 0 to 1.<br>
+This is now ideal for influencing the `Pan` parameter of the `Audio Device Out`.
 
-8. To do this, set the `Math` `CHOP` in `Viewer Active` state by clicking on the **➕** icon at the bottom-right.<br>
+8. To do this, set the `Math` in `Viewer Active` state by clicking on the **➕** icon at the bottom-right.<br>
 This allows us to interact wiht the channels directly.
 <p align="center">
 	<img src="resources/Math_CHOP_Viewer_Active.png" width=50% height=50%>
 </p>
 
-9. We should now be able to click and hold on the `tracker_0:tx` channel in `Math` `CHOP` and drag it (don't release the mouse yet) over `Audio Device Out` `CHOP`, wait till `Parameter` window switch to `Audio Device Out`'s parameters.<br>
+9. We should now be able to click and hold on the `tracker_0:tx` channel in `Math` and drag it (don't release the mouse yet) over `Audio Device Out`, wait till `Parameter` window switch to `Audio Device Out`'s parameters.<br>
 Once the `Parameter` window is set to `Audio Device Out`, drop it on the `Pan` parameter and choose `Export CHOP Reference`.
 <p align="center">
 	<img src="resources/CHOP Reference.gif">
