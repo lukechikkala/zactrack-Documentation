@@ -92,7 +92,7 @@ or<br>
 right-click and and select `Add Operator`.
 2. Head over to the `CHOP` tab and select `Audio Device In`.
 <p align="center">
-	<img src="resources/0_CHOP_ADI.png" width=50% height=50%>
+	<img src="resources/0_Chop_ADI.png" width=50% height=50%>
 </p>
 
 3. This should then add an Audio Device In CHOP on our Network Editor ("grid").<br>
