@@ -1,5 +1,5 @@
 # Control using Network Node
-**[zacTrack Documentation](../README.md) `>` [zacTrack with Lighting](zt_Lighting.md) `>` [Control Using Node](Node_resources.md)**
+**[zacTrack Documentation](../../README.md) `>` [zacTrack with Lighting](zt_Lighting.md) `>` [Control Using Node](Node_resources.md)**
 
 In this setup, we will be using the node in sACN mode.<br>
 This documentation assumes the system is already calibrated.<br>

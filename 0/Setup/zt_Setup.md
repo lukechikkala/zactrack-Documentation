@@ -1,5 +1,5 @@
 # zactrack System Setup
-**[zacTrack Documentation](../README.md) `>` [zacTrack System Setup](zt_Setup.md)**
+**[zacTrack Documentation](../../README.md) `>` [zacTrack System Setup](zt_Setup.md)**
 
 
 # Index

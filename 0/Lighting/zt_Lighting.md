@@ -1,5 +1,5 @@
 # zacTrack with Lighting
-**[zacTrack Documentation](../README.md) `>` [zacTrack with Lighting](zt_Lighting.md)**
+**[zacTrack Documentation](../../README.md) `>` [zacTrack with Lighting](zt_Lighting.md)**
 
 There are two basic ways of connecting zactrack with a Lighting System.
 1. [With a sACN or Art-Net Node](zt_Lighting_Node.md)

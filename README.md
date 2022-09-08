@@ -4,18 +4,18 @@
 			margin-left: auto;
 			margin-right: auto;
 			width: 30%;"
-			src="resources/logo.png"
+			src="0/resources/logo.png"
 			alt="logo">
 </img>
 
 #
-This repository is a basic documentation on how to use zacTrack with external applications like audio devices, cameras, lighting fixtures & video projections.
+This repository is a basic documentation on how to use zacTrack with external applications like audio devices, cameras, lighting fixtures & video projectors.
 
 # Index
-* [Setup](Setup/zt_Setup.md)
-* [Audio](Audio/zt_Audio.md)
-* [Camera](Camera/zt_Camera.md)
-* [Lighting](Lighting/zt_Lighting.md)
+* [Setup](0/Setup/zt_Setup.md)
+* [Audio](0/Audio/zt_Audio.md)
+* [Camera](0/Camera/zt_Camera.md)
+* [Lighting](0/Lighting/zt_Lighting.md)
 * Video
 
 # Credits

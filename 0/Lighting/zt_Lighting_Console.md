@@ -1,5 +1,5 @@
 # Control using Console
-**[zacTrack Documentation](../README.md) `>` [zacTrack with Lighting](zt_Lighting.md) `>` [Control Using Console](Console_resources.md)**
+**[zacTrack Documentation](../../README.md) `>` [zacTrack with Lighting](zt_Lighting.md) `>` [Control Using Console](Console_resources.md)**
 
 In this setup, we will be adding a console to have simultaneous control of fixtures.<br>
 This documentation assumes the system is already calibrated.<br>
