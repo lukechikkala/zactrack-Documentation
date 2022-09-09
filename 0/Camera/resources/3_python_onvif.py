@@ -3,6 +3,8 @@
 
 # --[ Derivatives ]-----------------------------------------------------------------------------------------------------------------------------------
 from onvif import ONVIFCamera
+import os
+from time import sleep
 # ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 # --[ Camera Setup ]----------------------------------------------------------------------------------------------------------------------------------
@@ -29,6 +31,7 @@ moverequest						=  None
 ptz								=  None
 active							=  False
 
+# ----------------------------------------------------------------------------------------------------------------------------------------------------
 def do_move(ptz, request):
 	# Start continuous move
 	global active
@@ -42,6 +45,21 @@ def move_up(ptz, request):
 	request.Velocity.PanTilt.x	= 0
 	request.Velocity.PanTilt.y	= YMAX
 	do_move(ptz, request)
+
+def follow_zt(ptz, request):
+	x_zt_raw = float(op('math1')['tracker_0:tx'])
+#	x_zt = round(x_zt_raw, 1)
+	x_zt = 1
+	print ( "Attempting to follow zactrack..." )
+	print ( "--------------------------------" )
+	if x_zt > 0 and x_zt < 1:
+		request.Velocity.PanTilt.x	= x_zt
+		do_move(ptz, request)
+		print(x_zt)
+	else:
+		print( "Tracker is not within the range" )
+		print(x_zt)
+		print ( "--------------------------------" )
 
 def move_down(ptz, request):
 	print ('moving down...')
@@ -112,10 +130,9 @@ MoveRequest						= PTZ.create_type('ContinuousMove')
 MoveRequest.ProfileToken		= Media_Profile.token
 if MoveRequest.Velocity is None:
 	MoveRequest.Velocity = PTZ.GetStatus({'ProfileToken': Media_Profile.token}).Position
-	print("Velocity Status")
-	print(MoveRequest.Velocity)
-	print("---------------")
 # ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+clear()
 
 # --[ Final Commands ]--------------------------------------------------------------------------------------------------------------------------------
 # move_up(PTZ, MoveRequest)
@@ -123,7 +140,9 @@ if MoveRequest.Velocity is None:
 # move_right(PTZ, MoveRequest)
 # move_left(PTZ, MoveRequest)
 # move_upleft(PTZ, MoveRequest)
-move_upright(PTZ, MoveRequest)
+# move_upright(PTZ, MoveRequest)
 # move_downleft(PTZ, MoveRequest)
 # move_downright(PTZ, MoveRequest)
+# ----------------------------------------------------------------------------------------------------------------------------------------------------
+follow_zt(PTZ, MoveRequest)
 # ----------------------------------------------------------------------------------------------------------------------------------------------------
