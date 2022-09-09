@@ -14,7 +14,7 @@ To know more about System Calibration, visit [here](../Setup/zt_Setup.md/#calibr
 
 # Setup
 
-![zactrack and Node.png](Node_resources/zactrack_and_Node.png)
+![zactrack and Node.png](Node_resources/zactrack_Node.png)
 
 # Add Fixtures to zactrack
 
