@@ -15,6 +15,8 @@ To know more about System Calibration, visit [here](../Setup/zt_Setup.md/#calibr
 # Setup
 
 ![zactrack and Node.png](Node_resources/zactrack_Node.png)
+> **!! IMPORTANT !!** :<br>
+Ensure that the sACN node has the subnet mask same as zactrack, i.e., `255.255.255.0`.
 
 # Add Fixtures to zactrack
 
