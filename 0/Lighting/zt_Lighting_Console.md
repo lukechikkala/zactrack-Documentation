@@ -15,6 +15,8 @@ To know more about System Calibration, visit [here](../Setup/zt_Setup.md/#calibr
 # Setup
 
 ![zactrack and Console.png](Console_resources/zactrack_Console.png)
+> **!! IMPORTANT !!** :<br>
+Ensure that the console has the subnet mask same as zactrack, i.e., `255.255.255.0`.
 
 # Add Fixtures to zactrack
 1. Follow the [zacTrack System Setup](../Setup/zt_Setup.md/#zactrack-system-setup) notes to setup the system.
