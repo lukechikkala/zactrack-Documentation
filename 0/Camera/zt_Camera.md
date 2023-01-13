@@ -75,9 +75,9 @@ The LAN Port on the back of the camera is connected to the same switch as the PC
 6. zacTrack Server
 7. Room Setup
 
-### Random Blabber
+### Random Notes
 
-The word “Mapping” in Stage Precision refers to < blah >, which is different from Routing.
+The word “Mapping” in Stage Precision refers to < X >, which is different from Routing.
 
 ### Steps
 
