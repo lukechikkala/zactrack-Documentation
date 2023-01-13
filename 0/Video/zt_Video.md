@@ -10,16 +10,16 @@
 * [Software Versions](#software-versions)
 * [zactrack PSN [PosiStageNet] Setup](#zactrack-psn-posistagenet-setup)
 * [TouchDesigner Setup](#touchdesigner-setup)
-	* [Audio Setup](#audio-setup)
 	* [PSN Setup](#psn-setup)
-	* [Connecting Audio & PSN](#connecting-audio--psn)
+	* [Video Setup](#video-setup)
+	<!-- * [Connecting Audio & PSN](#connecting-audio--psn) -->
 
 <!-------------------------------------------------------------------------------------->
 
 # Introduction
 
 TouchDesigner is a node-based software that allows for creating some interaction between several protocols.<br>
-It is mainly used for visual interactions but in our case we are going to use it to get the XYZ data provided by zactrack over PSN to modify the PAN & Volume.<br>
+It is mainly used for visual interactions but in our case we are going to use it to get the XYZ data provided by zactrack over PSN to modify the position of some video elements.<br>
 
 <!-------------------------------------------------------------------------------------->
 
