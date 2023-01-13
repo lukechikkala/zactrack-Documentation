@@ -23,6 +23,12 @@
 					"\t<img src=\"resources/$1.png\" width=${2:50}% height=${3:50}%>",
 			"</p>\n\n"
 		],
-		"description": "Inserts an image tag with center alignment"
+		"description": "Inserts an image tag with center alignment."
+	},
+	"Insert Break_LC":{
+		"scope": "markdown",
+		"prefix": "br",
+		"body": ["<br>\n"],
+		"description": "Inserts a break and a new line."
 	}
 }

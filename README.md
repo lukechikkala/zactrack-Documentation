@@ -16,7 +16,7 @@ This repository is a basic documentation on how to use zacTrack with external ap
 * [Audio](0/Audio/zt_Audio.md)
 * [Camera](0/Camera/zt_Camera.md)
 * [Lighting](0/Lighting/zt_Lighting.md)
-* Video
+* [Video](0/Video/zt_Video.md)
 
 # Credits
 In collabs with:<br>
