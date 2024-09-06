@@ -1,0 +1,880 @@
+{
+  "metaData": {
+    "version": "0.8.135",
+    "versionNumber": 2183
+  },
+  "projectSettings": {
+    "containers": {
+      "stagePrecision": {
+        "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/toolChanged"
+          }
+        ],
+        "containers": {
+          "processes": {
+            "editorIsCollapsed": true,
+            "containers": {
+              "timeSettings": {
+                "hideEditorHeader": true
+              }
+            }
+          },
+          "3dWidget": {
+            "editorIsCollapsed": true
+          },
+          "defaults": {
+            "editorIsCollapsed": true,
+            "containers": {
+              "timeline": {
+              }
+            }
+          },
+          "categories": {
+          },
+          "Camera1": {
+            "niceName": "Editor Camera",
+            "editorIsCollapsed": true,
+            "containers": {
+              "coordinates": {
+                "parameters": [
+                  {
+                    "value": [
+                      -3.131111860275269,
+                      1.734596133232117,
+                      -5.223693370819092
+                    ],
+                    "controlAddress": "/position"
+                  },
+                  {
+                    "value": 1.000001907348633,
+                    "controlAddress": "/scale"
+                  },
+                  {
+                    "value": [
+                      -13.95998573303223,
+                      -29.22092819213867,
+                      6.11414847639935e-8
+                    ],
+                    "controlAddress": "/rotation"
+                  },
+                  {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "controlAddress": "/velocity"
+                  },
+                  {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "controlAddress": "/acceleration"
+                  }
+                ]
+              },
+              "camera": {
+                "containers": {
+                  "cameraParameter": {
+                    "parameters": [
+                      {
+                        "value": 14.757493019104,
+                        "controlAddress": "/focalLength"
+                      }
+                    ]
+                  },
+                  "lensParameter_mm_": {
+                    "editorIsCollapsed": true
+                  },
+                  "lensParameter_px_": {
+                    "parameters": [
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/k1"
+                      },
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/k2"
+                      },
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/k3"
+                      },
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/p1"
+                      },
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/p2"
+                      },
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/centerX"
+                      },
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/centerY"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  },
+                  "setup": {
+                    "parameters": [
+                      {
+                        "value": 1.777777791023254,
+                        "controlAddress": "/aspectRatio"
+                      }
+                    ],
+                    "editorIsCollapsed": true
+                  }
+                }
+              },
+              "display": {
+                "editorIsCollapsed": true
+              },
+              "effected": {
+                "parameters": [
+                  {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0,
+                      1.0
+                    ],
+                    "controlAddress": "/objectEffectColor"
+                  },
+                  {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "controlAddress": "/positionEffected"
+                  },
+                  {
+                    "value": 1.0,
+                    "controlAddress": "/scaleEffected"
+                  },
+                  {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "controlAddress": "/rotationEffected"
+                  }
+                ]
+              },
+              "mapsInput": {
+              },
+              "filter": {
+              },
+              "mapsOutput": {
+              },
+              "userdata": {
+              },
+              "events": {
+              }
+            },
+            "type": "Camera",
+            "baseID": 1,
+            "children": [],
+            "matrix": [
+              0.8727455735206604,
+              -9.313225746154785e-10,
+              -0.4881793558597565,
+              0.0,
+              0.117769367992878,
+              0.9704633951187134,
+              0.2105445116758347,
+              0.0,
+              0.4737591147422791,
+              -0.241244450211525,
+              0.846967339515686,
+              0.0,
+              -3.131111860275269,
+              1.734596133232117,
+              -5.223693370819092,
+              1.0
+            ],
+            "calibration": null,
+            "opencvCamMatrix": null,
+            "opencvdistortionMatrix": null,
+            "savedLastState_CameraCalibrationTool": null,
+            "savedLastState_ScreenCalibrationTool": null,
+            "savedLastState_DistortionViewer": null,
+            "savedLastState_ScreenRepositionMarkerTool": null
+          },
+          "calibration": {
+          },
+          "sPinternal": {
+          }
+        }
+      }
+    }
+  },
+  "layout": {
+    "mainLayout": {
+      "type": 1,
+      "width": 1918,
+      "height": 1032,
+      "direction": 2,
+      "shifters": [
+        {
+          "type": 1,
+          "width": 1918,
+          "height": 1032,
+          "direction": 1,
+          "shifters": [
+            {
+              "type": 1,
+              "width": 635,
+              "height": 1032,
+              "direction": 2,
+              "shifters": [
+                {
+                  "type": 0,
+                  "width": 635,
+                  "height": 566,
+                  "currentContent": "Objects",
+                  "currentContentData": null,
+                  "tabs": [
+                    {
+                      "name": "Objects"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 635,
+                  "height": 460,
+                  "currentContent": "IO Connections",
+                  "currentContentData": null,
+                  "tabs": [
+                    {
+                      "name": "IO Connections"
+                    },
+                    {
+                      "name": "Pool"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "width": 635,
+              "height": 1032,
+              "direction": 2,
+              "shifters": [
+                {
+                  "type": 0,
+                  "width": 635,
+                  "height": 395,
+                  "currentContent": "Board",
+                  "currentContentData": {
+                    "boardAddress": "/board/board",
+                    "viewZoom": 1.0,
+                    "viewOffsetX": 0,
+                    "viewOffsetY": 0
+                  },
+                  "tabs": [
+                    {
+                      "name": "Timeline"
+                    },
+                    {
+                      "name": "Board"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 635,
+                  "height": 631,
+                  "currentContent": "Viewport",
+                  "currentContentData": null,
+                  "tabs": [
+                    {
+                      "name": "Viewport"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "width": 635,
+              "height": 1032,
+              "currentContent": "Inspector",
+              "currentContentData": {
+                "locked": false,
+                "inspectables": [
+                  "/ioConnections/ioConnections/Panasonic PTZ1"
+                ]
+              },
+              "tabs": [
+                {
+                  "name": "Inspector"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "windows": null
+  },
+  "poolManager": {
+    "root": {
+      "niceName": "PoolTree",
+      "containers": {
+        "display": {
+          "editorIsCollapsed": true
+        },
+        "pool": {
+          "hideEditorHeader": true
+        },
+        "events": {
+        }
+      },
+      "type": "Category",
+      "baseID": -1,
+      "children": []
+    }
+  },
+  "ObjectsManager": {
+    "root": {
+      "niceName": "ObjectTree",
+      "containers": {
+        "coordinates": {
+          "parameters": [
+            {
+              "value": [
+                0,
+                0,
+                0
+              ],
+              "controlAddress": "/velocity"
+            },
+            {
+              "value": [
+                0,
+                0,
+                0
+              ],
+              "controlAddress": "/acceleration"
+            }
+          ],
+          "hideEditorHeader": true
+        },
+        "objectTree": {
+          "hideEditorHeader": true
+        },
+        "display": {
+          "editorIsCollapsed": true,
+          "hideEditorHeader": true
+        },
+        "effected": {
+          "parameters": [
+            {
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "controlAddress": "/objectEffectColor"
+            },
+            {
+              "value": [
+                0,
+                0,
+                0
+              ],
+              "controlAddress": "/positionEffected"
+            },
+            {
+              "value": 1.0,
+              "controlAddress": "/scaleEffected"
+            },
+            {
+              "value": [
+                0,
+                0,
+                0
+              ],
+              "controlAddress": "/rotationEffected"
+            }
+          ]
+        },
+        "mapsInput": {
+        },
+        "filter": {
+        },
+        "mapsOutput": {
+        },
+        "userdata": {
+        },
+        "events": {
+        }
+      },
+      "type": "Object",
+      "baseID": -1,
+      "children": [
+        {
+          "niceName": "PTZ Camera",
+          "containers": {
+            "coordinates": {
+              "parameters": [
+                {
+                  "value": [
+                    0.0,
+                    0.0,
+                    -1.17899763584137
+                  ],
+                  "controlAddress": "/position"
+                },
+                {
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "controlAddress": "/velocity"
+                },
+                {
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "controlAddress": "/acceleration"
+                }
+              ]
+            },
+            "ptzCamera": {
+              "parameters": [
+                {
+                  "value": "Target",
+                  "controlAddress": "/controller"
+                },
+                {
+                  "value": [
+                    0.0,
+                    8.560269355773926
+                  ],
+                  "controlAddress": "/panTilt"
+                }
+              ],
+              "containers": {
+                "target": {
+                  "parameters": [
+                    {
+                      "value": true,
+                      "controlAddress": "/enabled"
+                    },
+                    {
+                      "value": "/objectTree/objectTree/Tracker1",
+                      "controlAddress": "/targetObject"
+                    },
+                    {
+                      "value": 0.0,
+                      "controlAddress": "/subpoint"
+                    },
+                    {
+                      "value": 0.0,
+                      "controlAddress": "/splinePercent"
+                    },
+                    {
+                      "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "controlAddress": "/targetCoordinates"
+                    }
+                  ],
+                  "containers": {
+                    "interpolation": {
+                      "parameters": [
+                        {
+                          "value": false,
+                          "controlAddress": "/enabled"
+                        }
+                      ],
+                      "editorIsCollapsed": true
+                    }
+                  }
+                },
+                "settings": {
+                  "editorIsCollapsed": true
+                }
+              }
+            },
+            "display": {
+              "parameters": [
+                {
+                  "value": [
+                    0.5333333611488342,
+                    0.8196078538894653,
+                    0.772549033164978,
+                    1.0
+                  ],
+                  "controlAddress": "/color"
+                },
+                {
+                  "value": [
+                    0.5333333611488342,
+                    0.8196078538894653,
+                    0.772549033164978,
+                    1.0
+                  ],
+                  "controlAddress": "/itemColor",
+                  "type": "Color",
+                  "niceName": "Item Color",
+                  "customizable": false,
+                  "removable": false,
+                  "description": "",
+                  "hideInEditor": false,
+                  "feedbackOnly": false
+                }
+              ],
+              "editorIsCollapsed": true
+            },
+            "effected": {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/objectEffectColor"
+                },
+                {
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "controlAddress": "/positionEffected"
+                },
+                {
+                  "value": 1.0,
+                  "controlAddress": "/scaleEffected"
+                },
+                {
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "controlAddress": "/rotationEffected"
+                }
+              ]
+            },
+            "mapsInput": {
+            },
+            "filter": {
+            },
+            "mapsOutput": {
+            },
+            "userdata": {
+            },
+            "events": {
+            },
+            "calibrationTest": {
+              "editorIsCollapsed": true
+            }
+          },
+          "type": "PTZCamera",
+          "baseID": 1,
+          "children": [],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.17899763584137,
+            1.0
+          ]
+        },
+        {
+          "niceName": "Tracker",
+          "containers": {
+            "coordinates": {
+              "parameters": [
+                {
+                  "value": [
+                    0.0,
+                    0.7064439058303833,
+                    1.38424825668335
+                  ],
+                  "controlAddress": "/position"
+                },
+                {
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "controlAddress": "/velocity"
+                },
+                {
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "controlAddress": "/acceleration"
+                }
+              ]
+            },
+            "tracker": {
+              "containers": {
+                "points": {
+                  "editorIsCollapsed": true
+                }
+              }
+            },
+            "display": {
+              "parameters": [
+                {
+                  "value": [
+                    0.1000000014901161,
+                    0.1000000014901161,
+                    0.1000000014901161
+                  ],
+                  "aspectLocked": true,
+                  "controlAddress": "/viewportScale"
+                }
+              ],
+              "editorIsCollapsed": true
+            },
+            "effected": {
+              "parameters": [
+                {
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "controlAddress": "/objectEffectColor"
+                },
+                {
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "controlAddress": "/positionEffected"
+                },
+                {
+                  "value": 1.0,
+                  "controlAddress": "/scaleEffected"
+                },
+                {
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "controlAddress": "/rotationEffected"
+                }
+              ]
+            },
+            "mapsInput": {
+            },
+            "filter": {
+            },
+            "mapsOutput": {
+            },
+            "userdata": {
+            },
+            "events": {
+            }
+          },
+          "type": "Tracker",
+          "baseID": 1,
+          "children": [],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.7064439058303833,
+            1.38424825668335,
+            1.0
+          ],
+          "subpoints": null
+        }
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "sequenceManager": {
+    "parameters": [
+      {
+        "value": 25.0,
+        "controlAddress": "/listSize"
+      }
+    ],
+    "niceName": "Sequence",
+    "containers": {
+      "layers": {
+      },
+      "cues": {
+      }
+    },
+    "type": "BaseItem",
+    "baseID": -1,
+    "editing": true
+  },
+  "moduleManager": {
+    "root": {
+      "niceName": "IO Connections",
+      "containers": {
+        "display": {
+          "editorIsCollapsed": true
+        },
+        "events": {
+        }
+      },
+      "type": "Module",
+      "baseID": -1,
+      "children": [
+        {
+          "niceName": "Panasonic PTZ",
+          "containers": {
+            "display": {
+              "editorIsCollapsed": true
+            },
+            "events": {
+            }
+          },
+          "type": "Panasonic PTZ",
+          "baseID": 1,
+          "children": []
+        }
+      ]
+    }
+  },
+  "boardManager": {
+    "containers": {
+      "boards": {
+      }
+    },
+    "items": [
+      {
+        "niceName": "Board",
+        "containers": {
+          "board": {
+          },
+          "boardWebserver": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/enabled"
+              },
+              {
+                "value": "WebServer is deactived",
+                "controlAddress": "/url"
+              }
+            ]
+          },
+          "layout": {
+            "editorIsCollapsed": true
+          },
+          "boardItem": {
+            "editorIsCollapsed": true,
+            "connections": {
+            }
+          }
+        },
+        "type": "BaseItem",
+        "baseID": -1
+      }
+    ]
+  },
+  "recordingManager": {
+    "containers": {
+      "recordingManager": {
+      },
+      "containers": {
+      }
+    }
+  },
+  "timeManager": {
+    "containers": {
+      "timecode": {
+        "containers": {
+          "main": {
+          },
+          "io": {
+          },
+          "timeline": {
+          },
+          "recording": {
+          },
+          "systemTimecode": {
+          }
+        }
+      },
+      "systemTimeCode": {
+        "parameters": [
+          {
+            "value": 21327.8359375,
+            "controlAddress": "/systemTimeCode"
+          }
+        ]
+      },
+      "genlock": {
+      },
+      "timeInspector": {
+      }
+    }
+  }
+}
